@@ -1,7 +1,7 @@
 #New Puthon file
 #!/usr/bin/python3
 
-from Boat_Device.modules.params import get_status
+from modules.params import get_status
 
 import modules.file as file
 

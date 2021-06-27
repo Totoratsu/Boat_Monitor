@@ -1,9 +1,9 @@
 from logging import exception
-from one_wire import getTemp;
+from modules.one_wire import getTemp;
 
-from weight import getWeight;
+from modules.weight import getWeight;
 
-from IO import getStatus;
+from modules.IO import getStatus;
 
 
 def get_temp():
